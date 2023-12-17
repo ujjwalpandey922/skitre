@@ -1,0 +1,142 @@
+/* Reset some default styles for the body */
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #000109; /* Set background color */
+}
+
+/* Styling for the main button */
+.button-bg {
+  background-color: rgb(181, 241, 255);
+  font-size: large;
+  font-weight: 900;
+  border-radius: 15px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for modal content */
+.modal-content {
+  border-radius: 15px;
+}
+
+/* Styling for modal header */
+.modal-header {
+  background-color: rgb(181, 241, 255);
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Styling for modal title */
+.modal-title {
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Styling for progress bar */
+.progress {
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+  background-color: transparent;
+}
+
+/* Styling for incomplete progress bar */
+.uncompleteProgressBar {
+  background-color: rgb(124, 231, 255);
+  border-radius: 0 15px 15px 0;
+}
+
+/* Styling for progress bar edge */
+.progress-edge {
+  border-radius: 15px 0 0 15px;
+}
+
+/* Styling for accordion header */
+.accordion-header {
+  color: rgb(106, 13, 124);
+}
+
+/* Styling for accordion header button */
+.accordion-header button {
+  display: flex;
+  gap: 1rem;
+  color: rgb(106, 13, 124);
+}
+/* Styling for accordion header button onCLick changes */
+.accordion-header button:focus {
+  color: inherit;
+  background-color: inherit;
+  box-shadow: none;
+}
+/* Styling for check/tick icon */
+.tick {
+  color: rgb(139, 254, 139);
+  background-color: rgb(128, 128, 128);
+  border-radius: 50%;
+  font-size: x-large;
+}
+
+/* Styling for circle icon */
+.circle {
+  color: rgb(42, 198, 237);
+  background-color: rgb(189, 248, 252);
+  border-radius: 50%;
+  font-size: x-large;
+}
+
+/* Styling for specific accordion header */
+#accordionOne {
+  font-size: medium;
+  padding: 0 0 1rem 1.2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Styling for specific accordion header button */
+#flush-headingSix button {
+  color: #000109;
+  font-size: large;
+  font-weight: 400;
+}
+
+/* Styling for accordion body */
+.accordion-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 4rem;
+  color: rgb(106, 13, 124);
+}
+
+/* Styling for accordion body button */
+.accordion-body button {
+  color: #000109;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 40rem) {
+  .accordion-body {
+    padding: 1rem 2rem;
+  }
+}

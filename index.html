@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/71b3a7658c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Skitre.ai</title>
+  </head>
+  <body>
+    <div id="app" class="relative vh-100">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn button-bg position-absolute m-5 bottom-0 left-0"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Get Started With Loom <i class="fa-solid fa-angle-up"></i>
+      </button>
+
+      <!-- Modal -->
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <!-- Modal Content -->
+          <div class="modal-content">
+            <!-- Modal Header START -->
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Get Started Check List
+                <i
+                  class="fa-solid fa-angle-down"
+                  type="button"
+                  data-bs-dismiss="modal"
+                >
+                </i>
+              </h5>
+              <!-- Progress Bar -->
+              <div class="progress">
+                <!-- Individual progress bars -->
+                <div
+                  class="progress-bar bg-info progress-edge"
+                  role="progressbar"
+                  style="width: 16%"
+                  aria-valuenow="15"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+                <!-- Individual progress bars -->
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 16%"
+                  aria-valuenow="30"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+                <!-- Individual progress bars -->
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 16%"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+                <!-- Individual progress bars -->
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 16%"
+                  aria-valuenow="15"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+                <!-- Individual progress bars -->
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 16%"
+                  aria-valuenow="30"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+                <!-- Individual progress bars -->
+                <div
+                  class="progress-bar uncompleteProgressBar"
+                  role="progressbar"
+                  style="width: 16%"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!-- Modal Header END-->
+            <!-- Modal BODY START-->
+            <div class="modal-body">
+              <!-- Accordion START-->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- Accordion Single Item-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="accordionOne">
+                    <i class="fa-solid fa-circle-check tick"></i>
+                    Create an account
+                  </h2>
+                </div>
+                <!-- Accordion Single Item-->
+                <div class="accordion-item">
+                  <!-- Accordion Single Item Header-->
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      <i class="fa-solid fa-circle-check tick"></i>
+                      Download Loom
+                    </button>
+                  </h2>
+                  <!-- Accordion Single Item Body-->
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Install the Chrome extension to record from your browser
+                      and to unlock integrations like Gmail and Jira.
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa-brands fa-chrome"></i> Install Chrome
+                        Extension
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Single Item-->
+                <div class="accordion-item">
+                  <!-- Accordion Single Item Header-->
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      <i class="fa-solid fa-circle-check tick"></i>
+                      Record a video
+                    </button>
+                  </h2>
+                  <!-- Accordion Single Item Body-->
+
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Install the Chrome extension to record from your browser
+                      and to unlock integrations like Gmail and Jira.
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-video"></i> Record a video
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Single Item-->
+                <div class="accordion-item">
+                  <!-- Accordion Single Item Header-->
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      <i class="fa-solid fa-circle-check tick"></i>
+                      Share your video
+                    </button>
+                  </h2>
+                  <!-- Accordion Single Item Body-->
+
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Install the Chrome extension to record from your browser
+                      and to unlock integrations like Gmail and Jira.
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-share"></i> Share your video
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Single Item-->
+                <div class="accordion-item">
+                  <!-- Accordion Single Item Header-->
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      <i class="fa-solid fa-circle-check tick"></i>
+                      Get a view
+                    </button>
+                  </h2>
+                  <!-- Accordion Single Item Body-->
+
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Install the Chrome extension to record from your browser
+                      and to unlock integrations like Gmail and Jira.
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-eye"></i> Get a view
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Single Item-->
+                <div class="accordion-item">
+                  <!-- Accordion Single Item- Header -->
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      <i class="fa-regular fa-circle circle"></i>
+                      Invite a teammate
+                    </button>
+                  </h2>
+                  <!-- Accordion Single Item- Body -->
+                  <div
+                    id="flush-collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Install the Chrome extension to record from your browser
+                      and to unlock integrations like Gmail and Jira.
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-people-group"></i> Invite a
+                        teammate
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion END-->
+            </div>
+            <!-- Modal BODY END-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (optional) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom JavaScript -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
